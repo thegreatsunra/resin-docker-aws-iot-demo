@@ -1,15 +1,11 @@
-# Temporary files.
-.#*
-
-# Log files.
-*.log
-
-# Don't push node_modules - we want the build server to install these.
-node_modules/
-
-#OSX hidden metadata file
+!.gitkeep
 .DS_Store
+node_modules/**
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
 
+# comment out these lines to add your certs and keys to your repo for resin.io:
 *.crt
-*.key
 *.pem
+*.key
