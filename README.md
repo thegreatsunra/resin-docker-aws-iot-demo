@@ -1,12 +1,10 @@
-## A Simple Server with Node.js Express
+## resin-docker-aws-iot-demo
 
-This is a simple skeleton Express server project that works on any of the [resin.io][resin-link] supported devices.
-
-This project simply serves up `"Hello World!"` on port `:80` of your resin.io device.
+> AWS IoT messaging from a [resin.io](https://resin.io) Docker container
 
 To get this project up and running, you will need to signup for a resin.io account [here][signup-page] and set up a device, have a look at our [Getting Started tutorial][gettingStarted-link]. Once you are set up with resin.io, you will need to clone this repo locally:
 ```
-$ git clone git@github.com:resin-projects/simple-server-node.git
+$ git clone git@github.com:thegreatsunra/resin-docker-aws-iot-demo.git
 ```
 Then add your resin.io application's remote repository to your local repository:
 ```
