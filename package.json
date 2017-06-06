@@ -7,6 +7,15 @@
     "type": "git",
     "url": "https://github.com/thegreatsunra/resin-docker-aws-iot-demo.git"
   },
+  "author": "Dane Petersen <thegreatsunra@gmail.com>",
+  "license": "MIT",
+  "engines": {
+    "node": "^7.10.0",
+    "npm": "^4.2.0"
+  },
+  "dependencies": {
+    "aws-iot-device-sdk": "^1.0.14"
+    },
   },
   "scripts": {
     "lint": "eslint --ext .js ./",
@@ -18,9 +27,5 @@
     "webserver",
     "nodejs",
     "expressjs"
-  ],
-  "dependencies": {
-    "aws-iot-device-sdk": "^1.0.14",
-    "express": "*"
-  }
+  ]
 }
